@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="welcome_main_screen.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>Finder</title>
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js'></script>
+</head>
+<body class="main">
+    <header>
+    <span class="logo">Finder</span>
+        <div class="block__user">
+            <img src="img/priora.jpg" class="block__user-img" width="130px" height="130px">
+        </div>
+    </header>
+    <div class="card">
+        <div class="card__block">
+            <div class="photo">
+                <canvas class="photo__user" id="photo-user"></canvas>
+            </div>
+            <div class="card__block-info">
+                <span class="card__block-info-text">Даниил, 20</span>
+            </div>
+            <div class="card__block-reaction">
+                <img src="img/dislike.png" width="85px" height="=85px" style="margin-left: 10%">
+                <img src="img/like.png" width="85px" height="=85px" style="margin-right: 10%">
+            </div>
+            <div style="margin-bottom: 5%"></div>
+        </div>
+    </div>
+    <script src="js/handler_photo.js"></script>
+</body>
+</html>

@@ -153,6 +153,7 @@ section
 .main
 {
     background: url("background.png") no-repeat;
+    background-size: 100%;
 }
 
 .logo
@@ -200,8 +201,7 @@ section
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 574px;
-    height: 140px;
+    width: 43%;
 }
 
 .register-button:visited,

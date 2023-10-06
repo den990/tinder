@@ -202,7 +202,8 @@ section
 
 .main
 {
-    background-color: black;
+    background: url("background.png") no-repeat;
+    background-size: 100%;
 }
 
 .logo
