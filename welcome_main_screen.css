@@ -34,7 +34,7 @@ header
     display: flex;
     flex-direction: column;
     border-radius: 80px;
-    background: #FFF;
+    background: #222;
     width: 40%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -53,9 +53,9 @@ header
 }
 .card__block-info-text
 {
-    color: #000;
+    color: white;
     font-family: Montserrat;
-    font-size: 48px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

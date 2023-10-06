@@ -149,7 +149,7 @@ section
 
 .login-form
 {
-    background-color: white;
+    background-color: #222222;
     width: 533px;
     height: 364px;
     border-radius: 43px;
@@ -163,6 +163,7 @@ section
 {
     font: 600 23px/1.22 "Montserrat";
     padding-bottom: 30px;
+    color:white;
 }
 
 .login-form__elements
@@ -180,6 +181,7 @@ section
     font: 600 20px/1.22 "Montserrat";
     margin-top: 16px;
     padding: 9px 88px 8px 14px;
+    background-color: #1A1A18;
 
 }
 
