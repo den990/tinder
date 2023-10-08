@@ -1,6 +1,6 @@
 .main
 {
-    background: url("background.png") no-repeat;
+    background: url("../img/main-background.png") no-repeat;
     background-size: 100%;
 }
 header
