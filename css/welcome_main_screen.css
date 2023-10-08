@@ -1,6 +1,6 @@
 .main
 {
-    background: url("../img/main-background.png") no-repeat;
+    background: url("../img/main-background.png");
     background-size: 100%;
 }
 header
@@ -18,7 +18,11 @@ header
 }
 .block__user
 {
+    display: flex;
+    justify-content: space-between;
     margin-top: -1%;
+    align-items: center;
+    width: 20%;
 }
 .block__user-img
 {
