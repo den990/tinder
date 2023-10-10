@@ -184,7 +184,7 @@ a {
   align-items: center;
   background-color: rgba(34, 34, 34, 1);
   max-width: 38%;
-  height: 757px;
+  height: 780px;
   border-radius: 43px;
   margin-left: 122px;
   margin-top: 82px;
@@ -231,6 +231,13 @@ a {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    background: url("../img/caret.svg") 96% / 4% no-repeat;
+    background-color: rgba(26, 26, 24, 1);
+    padding: 9px 0 8px 22px;
+}
+
+.big-select
+{
     background: url("../img/caret.svg") 96% / 6% no-repeat;
     background-color: rgba(26, 26, 24, 1);
 }
@@ -262,12 +269,6 @@ input::-webkit-calendar-picker-indicator {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color: rgba(193, 193, 193, 1);
-}
-
-.register-form__elements__input-select
-{
-    max-width: 302px;
-    padding: 9px 0 8px 22px;
 }
 
 .small-field
