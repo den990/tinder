@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link href="css/profile_screen.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;600&family=Montserrat:wght@600&display=swap"
+            rel="stylesheet">
+        <title>Profile</title>
+        <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js'></script>
+    </head>
+    <body class="main">
+        <header>
+            <span class="logo">Finder</span>
+            <div class="user-block">
+                <img src="img/icon_notification.svg" width="45" height="55" alt="notification-icon">
+                <img src="img/icon_message.svg" width="45" height="45" alt="message-icon">
+                <img src="img/priora.jpg" class="user-block__img" width="130" height="130" alt="user-avatar">
+            </div>
+        </header>
+        <div class="profile-editing">
+            <div class="profile-editing__title-bar">
+                <span class="profile-editing__title-bar__text">Профиль</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="2" fill="none">
+                <path d="M0 1H3000" stroke="#272C28" stroke-width="2"/>
+            </svg>
+            <div class="profile-editing__fields">
+                <div class="profile-editing__fields__text-fields">
+                    <div>
+                        <input type="text" name="name" placeholder="Имя" class="profile-editing__fields__text-fields__input-text">
+                        <input type="text" name="surname" placeholder="Фамилия" class="profile-editing__fields__text-fields__input-text input-text_big field-padding">
+                    </div>
+                    <div>
+                        <select name="sex" class="profile-editing__fields__text-fields__input-select">
+                            <option disabled selected hidden>Пол</option>
+                            <option>Мужской</option>
+                            <option>Женский</option>
+                        </select>
+                        <input type="date" name="birthday-date" class="profile-editing__fields__text-fields__date field-padding">
+                    </div>
+                    <select name="city" class="profile-editing__fields__text-fields__input-select__city">
+                        <option disabled selected hidden>Город</option>
+                        <option>Йошкар-Ола</option>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Челябинск</option>
+                    </select>
+                    <input type="text" name="additional-info" placeholder="Дополнительная информация" class="profile-editing__fields__text-fields__input-text big-text">
+                </div>
+                <input type="file">
+            </div>
+        </div>
+    </body>
+</html>
