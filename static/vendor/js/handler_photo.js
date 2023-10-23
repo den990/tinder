@@ -4,7 +4,7 @@ function cropImage(imageElement, topPercentage, bottomPercentage) {
 
     // Загружаем изображение
     var img = new Image();
-    img.src = "img/priora1.jpg";
+    img.src = "static/vendor/img/priora1.jpg";
     img.onload = function() {
         // Вычисляем размеры для обрезки
         var totalHeight = img.height;
